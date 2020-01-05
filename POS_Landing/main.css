@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+
+/* 
+============================
+Style for Navbar starts
+============================
+*/
+.navbar{ 
+    background: rgb(39, 18, 66);
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.nav-link , .navbar-brand{ 
+    color: #fff; cursor: pointer;
+}
+
+.nav-link{ 
+    margin-right: 1em !important;
+}
+
+.nav-link:hover{ 
+    background: #f4f4f4; color: #f97300; 
+}
+
+.navbar-collapse{ 
+    justify-content: center;
+}
+
+.navbar-toggler{  
+    background:#fff !important;
+}
+/*
+-----------------------
+Navbar styles End
+-----------------------
+*/
+
+/*
+====================================
+About the product styles starts here
+====================================
+*/
+.slider-style {
+    background-color: rgb(219, 217, 217);
+}
+
+.about{
+	margin: 6em 0 3em;
+	padding: 1em;
+    position: relative;
+}
+
+.about img{
+	height: 337px;
+    width: 100%;
+}
+.about span{
+	display: block;
+	color: rgb(97, 91, 91);
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 0 2em 2em 2em;
+	border-left:4px solid #10828C;
+}
+
+#about2-desc{
+    border: none;
+}
+
+.about .desc h3{
+    color: #10828C;
+    padding-bottom: 0.6em;
+}
+.about .desc p{
+	line-height:2;
+    color:#888;
+    margin-bottom: 2em;
+}
+/*
+-------------------------------
+About the product styles End
+-------------------------------
+*/
+
+/*
+===============================
+User form styles start
+===============================
+*/
+.submit-form {
+    padding: 5em 0;
+    background-color: #fff;
+}
+
+.submit-form p {
+    color: #888;
+    margin-top: 0.9em;
+}
+
+.submit-form .form-inline{
+    margin: 2.9em 0 0 13em;
+}
+/*
+-------------------------------
+Form styles End
+-------------------------------
+*/
+
+
+/*
+===============================
+Footer styles start
+===============================
+*/
+.footer {
+    background-color: #44A178;
+    color: #fff;
+    padding: 3em 0 1em 0;
+}
+
+.footer .size {
+    width: 25em;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    padding-bottom: 0.4em;
+}
+
+.footer ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 1em;
+}
+
+.footer ul li img {
+    height: 45px;
+    width: 45px;
+}
+
+#company-logo {
+    width: 90px;
+}
+
+.footer .copyright {
+    padding-top: 3em;
+}
+/*
+-----------------------
+Footer styles End
+-----------------------
+*/

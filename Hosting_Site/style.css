@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,500,700|Open+Sans:400,700|Roboto:400,500,700,900&display=swap');
+
+:root {
+    --primary-dark-color : #2f3f54; /*Mainly for header , subheading and bold type text*/
+    --secondary-dark-color : #4a6385; /*for P, small text*/
+    --showcase-text-color : #212121;
+    --footer-heading-color : #d0e4ff;
+    --footer-text-color : #718db2;
+
+    --headertop-bg-color: #2F3F54;
+    --section-bg-color: #FAFAFA;
+    --footertop-bg-color: #344358;
+    --footerbottom-bg-color: #4E6787;
+
+    --primary-light-color : #fff; /* for background, text color also */
+    
+    --theme : #267ae9;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 1.7rem;
+}
+
+.theme-color-text {
+    color: var(--theme);
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+/*===========================
+header and Navbar style start
+=============================*/
+.header-top-area {
+    background-color: var(--headertop-bg-color);
+    color: var(--primary-light-color);
+    padding: 1rem 0;
+    height: 48px;
+}
+
+.header-top-area a {
+    color: var(--primary-light-color);
+}
+
+/*============================
+Navbar Style
+==============================*/
+.menu {
+    height: 4.5rem;
+    font-weight: bold;
+    color: #2F3F54;
+    background-color: var(--primary-light-color);
+}
+
+.menu-left {
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-right {
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+}
+/*------------------------
+Header and Navbar Style End
+--------------------------*/
+
+/*============================
+Showcase area Style start
+==============================*/
+.showcase-area {
+    background-color: var(--theme);
+    color: var(--primary-light-color);
+    padding: 7rem 0 12rem 0;
+    /* z-index: -3; */
+}
+
+.text-section {
+
+}
+
+.text-section .heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.text-section .subheading {
+    margin-bottom: 6px;
+}
+
+.text-section p:nth-child(1) {
+    margin-bottom: 8px;
+}
+
+.checkbox-section {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    margin: 2.1rem 0;
+}
+
+.checkbox-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.custom-button {
+    border-radius: 30%;
+}
+/* Stopped here - Need to see some tutorial on how to customize button*/
+.button-label {
+    margin-top: 0.6rem;
+}
+
+.showcase-image-section {
+    /* position: relative; */
+}
+
+.image-1-wrapper {
+    /* position: absolute;
+    top: 100px;
+    left: -30px; */
+}
+
+.image-2-wrapper {
+    /* position: absolute;
+    top: 50px;
+    left: 150px; */
+}
+
+.image-2-wrapper > img {
+    /* width: 80%; */
+}
+
+.image-3-wrapper > img {
+    /* width: 80%; */
+}
+
+.image-3-wrapper {
+    /* position: absolute;
+    top: 0;
+    right: 50px; */
+}
+
+.showcase-image-section {
+    margin-top: 4rem;
+}
+
+.showcase-image-section img {
+    max-width: 8.6rem;
+    max-height: auto;
+}
+
+.image-1, .image-2 {
+    margin-right: 1rem;
+}
+
+.image-3 {
+    max-width: 12rem;
+}
+
+/*------------------------
+Showcase style End
+--------------------------*/
+
+/*===============================
+Call to action area style start
+=================================*/
+.call-to-action-area {
+    height: 300px;
+    width: auto;
+    z-index: 3;
+    /* have to fix that 
+    position: relative;
+    bottom: 200px; */
+}
+
+.area-width {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.cta-text ul {
+    list-style-type: none;
+}
+
+.cta-text ul li {
+    display: inline;
+    padding-right: 20px;
+}
+
+.cta-text ul li:nth-child(6) {
+    margin-left: 100px;
+}
+/*------------------------------
+call to action style end
+--------------------------------*/
+
+/*==============================
+Service Area style start
+================================*/
+.service-area {
+    line-height: 1.7rem;
+    padding: 0 0 8rem 0;
+}
+
+.item-image-wrapper {
+    position: relative;
+}
+
+.item-image-1 {
+    position: absolute;
+    top: 13rem;
+}
+
+.item-image-2 {
+    position: absolute;
+    top: 24rem;
+}
+
+.item-image-3 {
+    position: absolute;
+    top: 34rem;
+}
+
+.item-text {
+    background-color: var(--theme);
+    padding: 4rem 2.5rem;
+    color: var(--primary-light-color);
+}
+
+.item-text > div {
+    margin-top: 3rem;
+}
+
+.item-heading {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item-text > div > h6 {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 0.6rem;
+}
+
+.right-side-wrapper {
+    padding: 1.8rem;
+}
+
+.item-text p {
+    font-size: 14px;
+}
+/*------------------------------
+service area style end
+--------------------------------*/
+
+/*==============================
+Offer Area style start
+================================*/
+.offer-area {
+    background-color: var(--section-bg-color);
+    padding: 6.4rem 0;
+}
+
+.feature-box {
+    background-color: #fff;
+    margin-bottom: 6.4rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 3.5rem 0;
+    height: 230px;
+}
+
+.feature-one, .feature-two {
+    border-right: 1px solid rgb(197, 197, 197);
+    padding-right: 10rem;
+}
+.feature-three img {
+   height: 84px;
+   width: 84px;
+}
+.feature-box  p { 
+    margin-top: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto' sans-serif;
+}
+.offer-section-wrapper {
+    /* position: relative; */
+}
+.offer-section {
+    
+}
+
+.offer-section-wrapper h2 {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;  
+}
+
+.offer-checkmark {
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 3rem 0;
+}
+.offer-checkmark p {
+    margin-bottom: 1.8rem;
+}
+
+.item-1 {
+    margin-right: 3rem;
+}
+
+.item-3 {
+    margin-right: 4rem;
+}
+
+.offer-section-wrapper h6 {
+    font-size: 1.8rem;
+}
+
+.offer-image-section img {
+    /* position: absolute;
+    top: 0px;
+    left: 600px; */
+}
+/*------------------------------
+offer area style end
+--------------------------------*/
+
+/*==============================
+Subcription area style start
+================================*/
+.subscription-area {
+    padding: 7rem 0;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.subscription-area h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 2.2rem;
+}
+
+.subscription-area > .container > p {
+    max-width: 580px;
+    margin: 0 auto;
+    margin-bottom: 5.5rem;
+}
+
+.card-section {
+    
+}
+
+.card-section ul {
+    padding: 0;
+}
+
+.card-section ul li{
+    list-style-type: none;
+    text-align: left;    
+}
+
+.individual-card-wrapper {
+    padding: 2.3rem;
+}
+
+.individual-card-wrapper .price-tag {
+    margin-bottom: 1.8rem;
+}
+
+.individual-card-wrapper img {
+    width: 118px;
+    height: 83px;
+}
+
+.individual-card-wrapper h3 {
+    text-align: left;
+    font-size: 2.5rem;
+    color: #267AE9;
+    font-weight: bold;
+    margin-bottom: 1.7rem;
+    margin-top: 2rem;
+}
+
+.individual-card-wrapper .card-text {
+    color: #4A6385;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.card-checkmarks {
+    color: #4A6385;
+}
+
+.card-checkmarks ul li {
+    margin-bottom: 0.5rem;
+}
+
+.card-checkmarks ul li i {
+    margin-right: 1.2rem;
+}
+/*------------------------------
+subscription area style end
+--------------------------------*/
+
+/*=================================
+testimonial area style start 
+===================================*/
+.testimonial {
+    background-color: var(--section-bg-color);
+    padding: 4rem 0 6rem;
+    text-align: center;
+}
+
+.testimonial h2 {
+    margin-bottom: 3rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+
+/*------------------------------
+testimonial area style end
+--------------------------------*/
+
+/*=================================
+client area style start
+===================================*/
+.client {
+    padding: 5rem 0;
+}
+
+/*=================================
+footer top area style start
+===================================*/
+.footer-top-area {
+    background-color: var(--footertop-bg-color);
+    color: var(--footer-text-color);
+    padding: 5rem 0;
+    font-size: 0.8rem;
+}
+
+.footer-top-area hr {
+    background-color: var(--footer-text-color);
+}
+
+.footer-top-area h5 {
+    color: #D0E4FF;
+    font-size: 1rem;
+}
+
+.footer-top-area a {
+    color: var(--footer-text-color);
+}
+
+.footer-top-area ul {
+    margin-top: 1.1rem;
+    padding: 0;
+}
+
+.footer-top-area ul li {
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-logo {
+    margin-bottom: 1.4rem;
+}
+
+.footer-logo img {
+    height: 36px;
+}
+
+.footer-brand {
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+.footer-logo + p {
+    margin-bottom: 2.5rem;
+}
+
+.footer-menu {
+    padding: 0 3rem;
+}
+/*------------------------------
+footer top area style end
+--------------------------------*/
+
+/*=================================
+footer middle area style start
+===================================*/
+.footer-middle-area {
+    padding: 0.3rem 0;
+    background-color: var(--secondary-dark-color);
+    color: var(--footer-text-color);
+    font-size: 0.8rem;
+}
+
+.footer-middle-area ul li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 1rem;
+}
+
+.footer-middle-area a {
+    color: var(--footer-text-color);
+}
+
+.footer-middle-area .text {
+    margin-top: 0.7rem;
+}
+
+.footer-middle-area .footer-middle-right {
+    text-align: right;
+}
+
+/*------------------------------
+footer middle area style end
+--------------------------------*/
+
+/*=================================
+footer bottom area style start
+===================================*/
+.footer-bottom-area {
+    line-height: 1.5rem;
+    padding: 3rem 0;
+}
+
